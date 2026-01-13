@@ -18,6 +18,10 @@ venv/
 ENV/
 env/
 .env
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+data/
 
 # ============================================
 # Jupyter Notebooks
@@ -31,7 +35,7 @@ env/
 # ============================================
 # Exclude all .txt data files
 *.txt
-!lattice.txt
+lattice.txt
 # If lattice.txt is important config, keep it with !
 # Otherwise remove the ! line
 
@@ -46,6 +50,8 @@ training-*/
 *.pickle
 *.pth
 *.pt
+*nb
+*.mathematica
 *.ckpt
 models/
 saved_models/
